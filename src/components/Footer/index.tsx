@@ -20,9 +20,9 @@ export function Footer() {
         <Item>
           <TitleItem>Eat Explore</TitleItem>
           <NavLink>
-            <NavItem>Home</NavItem>
-            <NavItem>Explorar</NavItem>
-            <NavItem>Sobre nós</NavItem>
+            <NavItem><StyledLink href="/">Home</StyledLink></NavItem>
+            <NavItem><StyledLink href="/search">Explorar</StyledLink></NavItem>
+            <NavItem><StyledLink href="/about">Sobre nós</StyledLink></NavItem>
           </NavLink>
         </Item>
 
@@ -49,7 +49,7 @@ export function Footer() {
           <TitleItem>Um pouco mais sobre nós</TitleItem>
           <NavLink>
             <NavItem>FAQ</NavItem>
-            <NavItem>Contactos</NavItem>
+            <NavItem><StyledLink href="/contact">Contactos</StyledLink></NavItem>
           </NavLink>
         </Item>
 
