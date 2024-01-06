@@ -194,6 +194,7 @@ export const Title = styled.h1`
   @media (min-width: 681px) and (max-width: 1092px) {
     font-size: 1.7rem;
   }
+  
 `;
 
 export const Description = styled.p`

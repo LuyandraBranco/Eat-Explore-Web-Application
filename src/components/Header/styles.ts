@@ -68,6 +68,11 @@ export const Button = styled.button`
   > svg {
     color: var(--gray-600);
   }
+
+  @media (max-width: 480px) {
+    width: 3.5rem;
+  }
+
 `;
 
 export const List = styled.ul`
