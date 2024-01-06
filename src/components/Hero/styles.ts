@@ -179,6 +179,7 @@ export const Title = styled.h1`
   color: #fff;
 
   @media (max-width: 480px) {
+    font-size: 1.7rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font-size: 0.8rem;
@@ -187,7 +188,7 @@ export const Title = styled.h1`
   @media (min-width: 480px) and (max-width: 680px) {
     margin-top: 0.5rem;
     margin-bottom: 0.6rem;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
 
   @media (min-width: 681px) and (max-width: 1092px) {
