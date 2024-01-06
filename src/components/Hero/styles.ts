@@ -74,14 +74,14 @@ export const TextContainer = styled.div`
     width: 100%;
     height: 22rem;
     justify-content: center;
-    background: #ddd;
+    background: #E5383B;
   }
 
   @media (min-width: 480px) and (max-width: 680px) {
     width: 100%;
     height: 21rem;
     justify-content: center;
-    background: #ddd;
+    background: #E5383B;
   }
 `;
 
@@ -201,7 +201,7 @@ export const Description = styled.p`
   color: #fff;
 
   @media (max-width: 680px) {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   @media (min-width: 681px) and (max-width: 1092px) {
@@ -221,14 +221,12 @@ export const MediaContainer = styled.div`
  
 
   @media (max-width: 480px) {
-    margin-left: 5.5%;
+    width: 80%;
   }
 
   @media (min-width: 481px) and (max-width: 680px) {
     width: 80%;
     height: 2rem;
-    margin: 0;
-    margin-left: 7%;
   }
   @media (min-width: 681px) and (max-width: 800px) {
     margin-top: 2rem;
@@ -236,7 +234,6 @@ export const MediaContainer = styled.div`
 
   @media (min-width: 890px) and (max-width: 1120px) {
     margin-top: 2.5rem;
-    margin-left: 11%;
   }
 
 `;

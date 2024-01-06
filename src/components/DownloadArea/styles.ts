@@ -3,8 +3,18 @@ import styled from "styled-components";
 export const DownloadAreaContainer = styled.section`
   width: 100%;
   height: 25rem;
-  background: #f55f5f;
+  background: #e5383b;
   display: flex;
+
+  @media (max-width: 480px) {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+
+  @media (min-width: 480px) and (max-width: 680px) {
+    height: auto;
+    flex-direction: column-reverse;
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -13,6 +23,16 @@ export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-right: 15%;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 480px) and (max-width: 680px) {
+    width: 100%;
+    height: auto;
+  }
 `;
 
 export const TextTitle = styled.h1`
@@ -20,12 +40,20 @@ export const TextTitle = styled.h1`
   margin-left: 9%;
   margin-top: 4rem;
   margin-bottom: 0.5rem;
+
+  @media (max-width: 480px) {
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: 480px) and (max-width: 680px) {
+    font-size: 1.25rem;
+  }
 `;
 
 export const TextDescription = styled.p`
   margin-left: 9%;
   margin-bottom: 2rem;
-  color: #000;
+  color: #fff;
 `;
 
 export const TextButtons = styled.div`
@@ -53,11 +81,30 @@ export const Button = styled.button`
   > svg {
     color: var(--gray-600);
   }
+
+  @media (max-width: 480px) {
+    width: 15rem;
+  }
+
+  @media (min-width: 480px) and (max-width: 680px) {
+    width: 14rem;
+  }
 `;
 
 export const ImageContainer = styled.div`
   width: 35%;
   height: 25rem;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 480px) and (max-width: 680px) {
+    width: 100%;
+    height: auto;
+    background: #111;
+  }
 `;
 
 export const Image = styled.img`
@@ -66,6 +113,7 @@ export const Image = styled.img`
   object-fit: contain;
 
   @media (max-width: 680px) {
-    object-fit: contain;
+    width: 100%;
+    object-fit: cover;
   }
 `;

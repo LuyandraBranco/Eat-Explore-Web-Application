@@ -25,7 +25,7 @@ import {
           <List>
             <ItemList><StyledLink href="/">Home</StyledLink></ItemList>
             <ItemList><StyledLink href="/search">Explorar</StyledLink></ItemList>
-            <ItemList><StyledLink href="/about">Sobre nós</StyledLink></ItemList>
+            <ItemList><StyledLink href="/favorite">Favoritos</StyledLink></ItemList>
             <ItemList><StyledLink href="/contact">Contactos</StyledLink></ItemList>
           </List>
           <Button>
