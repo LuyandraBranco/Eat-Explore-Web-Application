@@ -133,3 +133,23 @@ export const Button = styled.button`
   margin-top: 3rem;
   margin-bottom: 5rem;
 `;
+
+export const Input = styled.input`
+  width: 80%;
+  height: 2.5rem;
+  border-radius: 6px;
+  border: 1px solid #101114;
+  margin-left: 5%;
+  margin-bottom: 0.5rem;
+`;
+
+export const Select = styled.select`
+  width: 80%;
+  height: 2.5rem;
+  border-radius: 6px;
+  border: 1px solid #101114;
+  margin-left: 5%;
+  margin-bottom: 0.5rem;
+`;
+
+export const Option = styled.option``;

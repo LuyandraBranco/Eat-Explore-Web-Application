@@ -39,7 +39,7 @@ export const TextTitle = styled.h1`
   color: #fff;
   margin-left: 9%;
   margin-top: 4rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 
   @media (max-width: 480px) {
     font-size: 1.2rem;
