@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Eat Explore 
 
-## Getting Started
+![screencapture-frontend-store-jpoliveiramateus-vercel-app-2022-10-03-11_49_44 (1)](https://user-images.githubusercontent.com/99822908/193607740-f6e6252f-82d6-4fb2-95bf-5cd8b3ee2f12.png)
 
-First, run the development server:
+Aplicativo dedicado a fornecer informações abrangentes sobre restaurantes e locais próximos que ofereçam experiências culinárias únicas. A aplicação permitiria aos usuários fazer as seguintes operações:
+- Buscar por restaurantes ou pratos a partir de uma gama de filtros e sua localização;
+- Interagir com os restaurantes e pratos comentando e avaliando;
+- Visualizar detalhes e avaliações prévias dos restaurantes seus e respectivos cardápios;
+- Opção de marcar como favorito os restaurantes e os pratos que o mesmo achar interessantes;
+- Cadastro de proprietários de restaurantes na aplicação.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📋 Execução  do projeto em sua máquina
+
+Clone o repositório:
+
+```
+git clone https://github.com/LuyandraBranco/Eat-Explore-Web-Application.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔧 Instalação
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Entre na pasta e instale todas as dependências:
 
-## Learn More
+```
+cd frontend-store/
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Ao terminar execute a aplicação e acesse sua porta local:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm start
+```
+http://localhost:3000/
+# 🔎 Rotas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Home: listagem de produtos. *http://localhost:3000/
+- Product Details: detalhes do produto e avaliações. *http://localhost:3000/product/MLB1968210028
+- Cart: listagem de produtos adicionados ao carrinho e calculo do total. *http://localhost:3000/cart
+- Checkout: revise seus produtos e conclua sua compra inserindo seus dados. *http://localhost:3000/checkout
 
-## Deploy on Vercel
+<div style="display: flex">
+   <img src="https://user-images.githubusercontent.com/99822908/193632004-d8daf9ce-8ffd-4d86-ac0a-9e9fafd2c879.png" height="380px"></img>
+   <img src="https://user-images.githubusercontent.com/99822908/193632187-955e6538-8535-42b8-a021-887dc2a13e11.png" height="380px"></img>
+   <img src="https://user-images.githubusercontent.com/99822908/193632451-30305f0f-c5e2-4242-9a7c-8c9070bb1eb3.png" height="380px"></img>
+   <img src="https://user-images.githubusercontent.com/99822908/193632717-da43ed21-eaa5-4b4b-a762-b8050dd6768f.png" height="380px"></img>
+</div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 🤹 Algumas funções implementadas:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Média de avaliações na página de detalhes.
+
+<div style="display: flex">
+   <img src="https://user-images.githubusercontent.com/99822908/193635925-cd9f46f7-e0f2-4b6b-b47f-d4038bf8a4f7.png" width="880px"></img>
+   <img src="https://user-images.githubusercontent.com/99822908/193635910-69e5e90a-57df-4eba-87d0-b34bf699829a.png" width="880px"></img>
+</div>
+
+# 🛠 Ferramentas & Metodologias Utilizadas
+
+* TypeScript;
+* NextJs
+
+# 🧑🏻‍💻 Status - em desenvolvimento
+
+## Próximos pontos de melhoria:
+
+- Barra de pesquisa no mobile;
+
+---
+⌨️ desenvolvido por [Luyandra Branco](https://www.linkedin.com/in/luyandra-branco-494973206/) <3
