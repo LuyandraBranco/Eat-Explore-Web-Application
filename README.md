@@ -1,6 +1,6 @@
 # Eat Explore 
 
-![screencapture-frontend-store-jpoliveiramateus-vercel-app-2022-10-03-11_49_44 (1)](https://user-images.githubusercontent.com/99822908/193607740-f6e6252f-82d6-4fb2-95bf-5cd8b3ee2f12.png)
+![image](https://github.com/LuyandraBranco/Eat-Explore-Web-Application/assets/94245234/13f1a8de-c7c1-403c-9a88-f2e3ef306755)
 
 Aplicativo dedicado a fornecer informações abrangentes sobre restaurantes e locais próximos que ofereçam experiências culinárias únicas. A aplicação permitiria aos usuários fazer as seguintes operações:
 - Buscar por restaurantes ou pratos a partir de uma gama de filtros e sua localização;
@@ -50,11 +50,12 @@ http://localhost:3000/
 
 # 🤹 Algumas funções implementadas:
 
-- Média de avaliações na página de detalhes.
+- Cadastro dos restaurantes.
 
 <div style="display: flex">
-   <img src="https://user-images.githubusercontent.com/99822908/193635925-cd9f46f7-e0f2-4b6b-b47f-d4038bf8a4f7.png" width="880px"></img>
-   <img src="https://user-images.githubusercontent.com/99822908/193635910-69e5e90a-57df-4eba-87d0-b34bf699829a.png" width="880px"></img>
+   <img src="![image](https://github.com/LuyandraBranco/Eat-Explore-Web-Application/assets/94245234/6ff42b34-0d41-4fff-9e4d-1122e3307780)" width="880px"></img>
+   <img src="![image](https://github.com/LuyandraBranco/Eat-Explore-Web-Application/assets/94245234/28ece019-4e71-44c5-9db3-c2cd2f54ede7)
+" width="880px"></img>
 </div>
 
 # 🛠 Ferramentas & Metodologias Utilizadas
@@ -69,4 +70,4 @@ http://localhost:3000/
 - Barra de pesquisa no mobile;
 
 ---
-⌨️ desenvolvido por [Luyandra Branco](https://www.linkedin.com/in/luyandra-branco-494973206/) <3
+Desenvolvido por [Luyandra Branco](https://www.linkedin.com/in/luyandra-branco-494973206/) <3
