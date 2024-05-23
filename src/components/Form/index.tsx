@@ -104,10 +104,10 @@ export function Form() {
     setFormData({
       ...formData,
       [name]: value,
-      municipio: "", // Reinicia o campo município ao selecionar uma nova província
+      municipio: "",
     });
 
-    // Chama a função para buscar os municípios quando a província é selecionada
+ 
     fetchMunicipios(value);
   };
 

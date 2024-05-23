@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const HeroContainer = styled.section`
   width: 100%;
   height: 35rem;
-  background: #E5383B;
 
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid #ddd;
 
   @media (max-width: 480px) {
     height: 40rem;
@@ -74,14 +74,14 @@ export const TextContainer = styled.div`
     width: 100%;
     height: 22rem;
     justify-content: center;
-    background: #E5383B;
+    background: #e5383b;
   }
 
   @media (min-width: 480px) and (max-width: 680px) {
     width: 100%;
     height: 21rem;
     justify-content: center;
-    background: #E5383B;
+    background: #e5383b;
   }
 `;
 
@@ -124,7 +124,7 @@ export const ButtonsContainer = styled.div`
 export const ButtonType = styled.button`
   width: 14rem;
   height: 3.2rem;
-  background-color:#333;
+  background-color: #333;
   border: none;
   font-size: 1rem;
   cursor: pointer;
@@ -136,7 +136,7 @@ export const ButtonType = styled.button`
     width: 9rem;
     margin-bottom: 0.5rem;
     font-size: 0.7rem;
-    background-color: #e5383b
+    background-color: #e5383b;
   }
 
   @media (min-width: 480px) and (max-width: 680px) {
@@ -159,8 +159,9 @@ export const Button = styled.button`
   border: none;
   font-size: 24px;
   cursor: pointer;
-  color: #fff;
-  padding: 10px; /* Adicione um espaço ao redor das setas */
+  color: #e5383b;
+
+  padding: 10px;
 
   &:hover {
     color: #333;
@@ -176,7 +177,7 @@ export const Title = styled.h1`
   text-transform: uppercase;
   margin-top: 3rem;
   margin-bottom: 1rem;
-  color: #fff;
+  color: #e5383b;
 
   @media (max-width: 480px) {
     font-size: 1.7rem;
@@ -194,13 +195,12 @@ export const Title = styled.h1`
   @media (min-width: 681px) and (max-width: 1092px) {
     font-size: 1.7rem;
   }
-  
 `;
 
 export const Description = styled.p`
   font-size: 1.2rem;
   text-align: justify;
-  color: #fff;
+  color: #000;
 
   @media (max-width: 680px) {
     font-size: 1rem;
@@ -220,7 +220,6 @@ export const MediaContainer = styled.div`
   width: 80%;
   height: 3rem;
   display: flex;
- 
 
   @media (max-width: 480px) {
     width: 80%;
@@ -237,7 +236,6 @@ export const MediaContainer = styled.div`
   @media (min-width: 890px) and (max-width: 1120px) {
     margin-top: 2.5rem;
   }
-
 `;
 
 export const SocialMedia = styled.a`
@@ -256,6 +254,7 @@ export const ButtonMedia = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid #e5383b;
 
   > svg {
     color: #e5383b;

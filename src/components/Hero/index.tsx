@@ -42,7 +42,7 @@ export function Hero({ data }: SlideshowProps) {
       nextSlide();
     };
 
-    const intervalId = setInterval(autoSlide, 8000);
+    const intervalId = setInterval(autoSlide, 12000);
 
     // Limpa o intervalo quando o componente for desmontado
     return () => {
